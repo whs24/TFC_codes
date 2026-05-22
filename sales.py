@@ -88,7 +88,7 @@ CUSTOMERS: list[CustomerInfo] = [
 
 # 按顾客名称快速查询：CUSTOMERS_BY_NAME["Super"]
 CUSTOMERS_BY_NAME: dict[str, CustomerInfo] = {
-    Customer["name"]: customer for customer in CUSTOMERS
+    customer["name"]: customer for customer in CUSTOMERS
 }
 
 
@@ -118,7 +118,7 @@ class Customer_contract:
                      order_deadline: Optional[int] = None,
                      trade_unit: Optional[str] = None,
                      payment_term: Optional[int] = None,
-                     promotional_pressure: Optional[float] = None,
+                     promotional_pressure: Optional[str] = None,
                      promotion_horizon: Optional[int] = None,
                      vmi_supplier: Optional[bool] = None):
         """
