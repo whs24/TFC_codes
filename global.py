@@ -1,6 +1,28 @@
 # --- Finance ---
 
-roi = 0 # = operating_profit / investment
+roi = 0  # = operating_profit / investment
+
+# --- 财报补充科目 ---
+contract_costs = 0
+investment_software = 0
+investment_building = 0
+
+# --- KPI / 结果指标（待填）---
+rejection_rate_components = 0
+distributed_pallets = 0
+availability_for_production = 0
+utilization_rate_bottling_lines = 0
+utilization_rate_tank_yard = 0
+capacity_loss_due_to_changeovers = 0
+capacity_loss_due_to_breakdowns = 0
+delivery_reliability = 0
+on_shelf_availability = 0
+economic_inventory = 0
+days_payable_outstanding = 0
+cash_to_cash_cycle = 0
+overall_equipment_effectiveness = 0
+carbon_footprint = 0
+co2_emission = 0
 
 realized_revenue = 0 # = contracted_sales_revenue + bonus_or_penalties
 contracted_sales_revenue = 0 # sum over all customers
